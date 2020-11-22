@@ -14,6 +14,7 @@
   "author": "Gil Fewster",
   "license": "ISC",
   "dependencies": {
+    "luxon": "^1.25.0",
     "parcel-bundler": "^1.12.4"
   }
 }
