@@ -1,3 +1,15 @@
+/* 
+  -- IMPORT command -- 
+  After a package has been installed with NPM
+  using `npm i packageName`, we can use the import command
+  to make the functions of that module available in our code
+
+  In this case, squiggly brackets indicate that we only want
+  to use one of the functions from the Luxon package, rather then
+  the whole thing. Importing only the functions neededs help 
+  keep file size down.
+
+*/
 import { DateTime } from 'luxon';
 
 /* 
