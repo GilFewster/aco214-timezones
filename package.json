@@ -1,0 +1,19 @@
+{
+  "name": "aco214-parcel-example",
+  "version": "1.0.0",
+  "description": "Example for setting up Parcel packager with a basic web project",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aco214"
+  ],
+  "author": "Gil Fewster",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
